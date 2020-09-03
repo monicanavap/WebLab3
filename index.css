@@ -19,13 +19,6 @@ header{
   align-items: center;
   justify-content: space-evenly;
 }
-
-.navbar{
-  text-align: left;
-  margin: 10px;
-  background-color: grey;
-}
-
 .hamburger{
   display: flex;
   justify-content: flex-end;
@@ -44,6 +37,11 @@ header{
 .menu{
   list-style: none;
   display: none;
+}
+.navbar{
+  text-align: left;
+  margin: 10px;
+  background-color: grey;
 }
 
 .social{
@@ -70,8 +68,8 @@ header{
   margin: 3px;
 }
 
-
-@media screen and (min-width: 768px) and (max-width: 1020px){
+//tablets
+@media screen and (min-width: 768px) and (max-width: 1025px){
   header{
     display: flex;
     flex-direction: row;
@@ -80,7 +78,7 @@ header{
     align-items: center;
   }
 }
-
+//desktop
 @media screen and (min-width: 1025px){
 
   header{
@@ -103,17 +101,18 @@ header{
   .hamburger{
     display: none;
   }
-
+  
+ .navbar{
+    margin: 0px;
+  }
+  
   .menu{
     display: flex;
     flex-direction: row;
     color:white;
     justify-content: flex-end;
   }
-
-  .navbar{
-    margin: 0px;
-  }
+  
   .menu li{
     margin: 15px 20px 15px 20px;
   }
