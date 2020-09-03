@@ -71,7 +71,7 @@ header{
 }
 
 
-@media screen (min-width: 768px) and (max-width: 1020px){
+@media screen and (min-width: 768px) and (max-width: 1020px){
   header{
     display: flex;
     flex-direction: row;
@@ -81,7 +81,7 @@ header{
   }
 }
 
-@media screen (min-width: 1025px){
+@media screen and (min-width: 1025px){
 
   header{
     display: flex;
@@ -118,7 +118,7 @@ header{
     margin: 15px 20px 15px 20px;
   }
 
-  main{
+  .main{
     display: flex;
     flex-direction: row;
     padding: 10px;
