@@ -68,7 +68,7 @@ header{
   margin: 3px;
 }
 
-//tablets
+/* tablets */
 @media screen and (min-width: 768px) and (max-width: 1025px){
   header{
     display: flex;
@@ -78,7 +78,7 @@ header{
     align-items: center;
   }
 }
-//desktop
+/*desktop */
 @media screen and (min-width: 1025px){
 
   header{
